@@ -1,0 +1,211 @@
+ul.breadcrumb.breadcrumb-transparent.breadcrumb-dot.font-weight-bold.p-0.my-2 {
+  display: !important;
+}
+
+ul.sticky-toolbar.nav.flex-column.pl-2.pr-2.pt-3.pb-3.mt-4 {
+  display: ;
+}
+
+.borderGap {
+  border-bottom: 1px dashed #e5eaee;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.site-name {
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (min-width: 992px) {
+  .header-fixed.subheader-fixed.subheader-enabled .wrapper {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .subheader-enabled .content {
+    padding-top: 15px;
+  }
+}
+
+.aside-minimize .brand .brand-logo span {
+  display: none;
+}
+
+.site_name_login {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #2f3044;
+  margin-top: -5px !important;
+}
+
+.login-label {
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+/* Design Dash Board */
+
+.shipping-card {
+  background-color: #4a7dff;
+  padding-top: 30px;
+  padding-bottom: 5px !important;
+}
+
+.shipping-card h2 {
+  color: white;
+  font-weight: 800;
+  padding-top: 15px;
+}
+
+.second-color {
+  background-color: #3699ff;
+}
+
+.shipping-card p {
+  color: white;
+  font-size: 12px;
+}
+
+.spacer {
+  padding-left: 30px;
+}
+
+/* Design Dash Board */
+/* employee cr report */
+label.form-inputlabel {
+  font-size: 13px !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fff;
+}
+.table-striped tbody tr:nth-of-type(even):hover {
+  background-color: #fff;
+}
+.criteriaTable td {
+  vertical-align: center !important;
+}
+
+label.criteriaOptionsInput {
+  height: auto !important;
+  line-height: 20px;
+}
+.table-striped tbody tr {
+  border-left: 1px solid #ecf0f3;
+  border-bottom: 1px solid #ecf0f3;
+}
+tr.border-left.cr-report th {
+  vertical-align: middle !important;
+
+  text-align: center !important;
+}
+input.form-control.form-input.d-inline.input-width {
+  width: auto;
+}
+@media (max-width: 425px) {
+  .form-control.criteriaOptionsInput {
+    width: 92%;
+    margin-left: 3px;
+  }
+  tr.border-left.cr-report th {
+    vertical-align: middle !important;
+    font-size: 10px !important;
+    text-align: center !important;
+  }
+  label.criteriaOptionsInput {
+    line-height: 16px;
+    padding: 0px !important;
+  }
+  td.criteriaBackground,
+  .td.criteriaTd {
+    font-size: 10px !important;
+  }
+  td.criteriaTd {
+    font-size: 10px !important;
+    text-align: center;
+  }
+  .a-lebel {
+    font-size: 15px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .akij-logo-ship {
+    height: 55px;
+    width: 55px;
+  }
+  .border-around {
+    padding: 10px 0px;
+  }
+  .container.pb-5.mb-4.ml-3 {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .row.result {
+    margin-top: -28px;
+  }
+  .row.additional__comments {
+    margin-top: -14px;
+  }
+  label.form-inputlabel {
+    font-size: 11px !important;
+  }
+  .vessel-name {
+    margin-top: -10px;
+  }
+  .form-inputlabel {
+    margin-bottom: -7px;
+  }
+  .date-input {
+    margin-top: -10px !important;
+    padding-top: 0px !important;
+  }
+  .date-label {
+    padding-bottom: 0px !important;
+  }
+  .employee-application-table {
+    margin-top: 12px;
+  }
+  .employee-application-table th,
+  td {
+    font-size: 10px !important;
+
+    vertical-align: middle !important;
+  }
+  p.employe-application-text {
+    font-size: 10px !important;
+  }
+}
+td.criteriaBackground {
+  position: relative;
+
+  padding-left: 25px !important;
+}
+.criteriaBackground::before {
+  left: 12px;
+}
+td.criteriaTd {
+  text-align: center;
+}
+input#inputEmpName {
+  height: 29px;
+}
+input#inputRank {
+  height: 29px;
+}
+input#exampleInputEmail1 {
+  height: 29px;
+}
+input.form-input {
+  height: 29px;
+}
+/* employee application start */
+p.employe-application-text {
+  font-size: 14px;
+  line-height: 1.1;
+}
+/* employee application end*/
